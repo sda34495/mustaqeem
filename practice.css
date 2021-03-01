@@ -1,0 +1,59 @@
+a:first-child{
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    /* outline: solid 2px gray; */
+}
+
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    color: brown;
+}a:active{
+    color: cyan;
+}
+
+p:first-child{
+    font-size: 30px;
+}
+
+p a{
+    outline: solid red 2px;
+}
+.a i:first-child{
+    color: red;
+}
+
+.b span:first-child{
+    color: blue;
+    font-size: 100px;
+}
+.c:first-child span{
+    color: red;
+    font-size: 150px;
+}
+
+q:lang(no){
+    quotes: "I am fine" "HE IS AN INTELLIGENT PERSON";
+}
+
+.i:checked{
+  height: 50px;
+  width: 50px;
+
+}
+
+.j:checked{
+    color: green;
+    width: 50px;
+    height: 50px;
+
+}
+
+option:checked{
+    width: 500px;
+    height: 500px;
+}
